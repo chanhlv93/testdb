@@ -2,16 +2,16 @@ $text = 'Hello World'
 
 # Create file:
 
-$text | Set-Content 'c:\file.txt'
+$text | Set-Content 'd:\file.txt'
 #or
-$text | Out-File 'c:\file.txt'
+$text | Out-File 'd:\file.txt'
 #or
-$text > 'c:\file.txt'
+$text > 'd:\file.txt'
 
 # Append to file:
 
-$text | Add-Content 'c:\file.txt'
+$text | Add-Content 'd:\file.txt'
 #or
-$text | Out-File 'c:\file.txt' -Append
+$text | Out-File 'd:\file.txt' -Append
 #or
-$text >> 'c:\file.txt'
+$text >> 'd:\file.txt'
